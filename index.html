@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Title</h1>
+    <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatibus eum pariatur et provident unde impedit non asperiores, dicta omnis consequatur reiciendis distinctio aliquam. Dolorem nobis reiciendis molestiae fugiat impedit.</p>
+
+    <form id ="survey-form">
+
+        <label id ="name-label">Name: </label> <br>
+        <input type="text" id="name" value="name" placeholder="Insert Name" required>
+
+        <label id ="email-label">Email: </label> <br>
+        <input type="email" id="email" value="email" placeholder="Insert Email" required>
+
+        <label id ="number-label">Number: </label> <br>
+        <input type="number" id="number" value="number" required min="0" max="100" placeholder="Insert a number between 0-100">
+        <br>
+        <select name="option" id="dropdown">
+            <option value="Lebanon">Lebanon</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Portugal">Portugal</option>
+        </select>
+        <br>
+        <input type="radio" name="one" value="one">
+        <input type="radio" name="one" value="two">
+        <br>
+         <input type="checkbox" value="Male"> Male </input>
+         <br>
+         <input type="checkbox" value="FeMale"> FeMale </input>
+         <br>
+         <textarea id ="textarea">
+
+         </textarea>
+         <br>
+         <button id="submit">submit</button>
+        
+    </form>
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
